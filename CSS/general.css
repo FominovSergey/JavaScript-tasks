@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(232, 247, 255);
+    margin: 0px;
+    font-family: Calibri;
+    font-size: larger;
+}
+p{
+    margin: 0px;
+}
+header{
+    background-color: rgb(53, 97, 255);
+    color: white;
+    font-size: 30px;
+    font-family:Arial Black;
+    height: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

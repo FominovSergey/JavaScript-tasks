@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
@@ -12,14 +12,16 @@
     </header>
     <main>
         <div class="main_box">
-            <h1>Новая Задача</h1>
-            <input type="text" class="Input-text" placeholder="Название задачи...">
-            <a class="button_blue" href=""><img src="" alt="Плюсик"> Добавить</a>
+            <h1>Новая задача</h1>
+            <div>
+                <input type="text" class="Input-text" placeholder="Название задачи...">
+                <a class="button_blue" href="">+ Добавить</a>
+            </div>
         </div>
         <section class="dfg">
-            <section>
+
+            <section class="tasks">
                 <p class="title_section_size title_section_color_grey">Бэклок</p>
-                
                 <div class="box box_border_grey">
                     <p>Выучить JS</p>
                 </div>
@@ -31,7 +33,7 @@
                 </div>
             </section>
 
-            <section>
+            <section class="tasks">
                 <p class="title_section_size title_section_color_blue">В процессе</p>
                 <div class="box box_border_blue">
                     <p>Выпить смузи</p>
@@ -41,7 +43,7 @@
                 </div>
             </section>
 
-            <section>
+            <section class="tasks">
                 <p class="title_section_size title_section_color_green">Готово</p>
                 <div class="box box_border_green">
                     <p>Позвонить маме</p>
@@ -51,7 +53,7 @@
                 </div>
             </section>
 
-            <section>
+            <section class="tasks">
                 <p class="title_section_size title_section_color_red">Корзина</p>
                 <div class="box box_border_red">
                     <p>Сходить погулять</p>
@@ -59,7 +61,7 @@
                 <div class="box box_border_red">
                     <p>Прочитать Войну и Мир</p>
                 </div>
-                <a class="button_red" href=""><img src="" alt="Креститк">Очистить</a>
+                <a class="button_red" href="">X Очистить</a>
             </section>
         </section>
     </main>

@@ -1,0 +1,22 @@
+.main_box{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(213, 240, 255);
+    border-radius: 1rem;
+    width: 500px;
+    padding:  0px 15px 30px;
+}
+.Input-text {
+    padding: 0.8rem 1.6rem ;
+    width: 40%;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 0.4rem;
+}
+
+.button_blue{
+    padding: 0.8rem 1.6rem ;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    background-color: rgb(53, 97, 255);
+}

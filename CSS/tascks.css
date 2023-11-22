@@ -1,0 +1,48 @@
+.title_section_size{    
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 0.4rem;
+    padding-left: 15px;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title_section_color_grey{
+    background-color: lightgrey;
+    color: gray;
+}
+.title_section_color_blue{
+    background-color: lightblue;
+    color: blue;
+}
+.title_section_color_green{
+    background-color: lightgreen;
+    color: green;
+}
+.title_section_color_red{
+    background-color: pink;
+    color: lightcoral;
+}
+.box{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding-left: 15px;
+    
+    display: flex;
+    align-items: center 
+}
+.box_border_grey{
+    border-left: 8px solid lightgray;
+}
+.box_border_blue{
+    border-left: 8px solid lightblue;
+}
+.box_border_green{
+    border-left: 8px solid lightgreen;
+}
+.box_border_red{
+    border-left: 8px solid pink;
+}
