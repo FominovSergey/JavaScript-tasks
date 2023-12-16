@@ -1,69 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Список задач</title>
 </head>
-<body>
-    <header>
-        <p>Список задач</p>
-    </header>
-    <main>
-        <div class="main_box">
-            <h1>Новая задача</h1>
-            <div>
-                <input type="text" class="Input-text" placeholder="Название задачи...">
-                <a class="button_blue" href="">+ Добавить</a>
-            </div>
-        </div>
-        <section class="dfg">
 
-            <section class="tasks">
-                <p class="title_section_size title_section_color_grey">Бэклок</p>
-                <div class="box box_border_grey">
-                    <p>Выучить JS</p>
-                </div>
-                <div class="box box_border_grey">
-                    <p>Выучить React</p>
-                </div>
-                <div class="box box_border_grey">
-                    <p>Сделать домашкуку</p>
-                </div>
-            </section>
 
-            <section class="tasks">
-                <p class="title_section_size title_section_color_blue">В процессе</p>
-                <div class="box box_border_blue">
-                    <p>Выпить смузи</p>
-                </div>
-                <div class="box box_border_blue">
-                    <p>Попить воды</p>
-                </div>
-            </section>
+<body class="board-app">
 
-            <section class="tasks">
-                <p class="title_section_size title_section_color_green">Готово</p>
-                <div class="box box_border_green">
-                    <p>Позвонить маме</p>
-                </div>
-                <div class="box box_border_green">
-                    <p>Погладить кота</p>
-                </div>
-            </section>
+  <main class="board-app__main">
+    <div class="board-app__inner">
+      <section class="add-task">
 
-            <section class="tasks">
-                <p class="title_section_size title_section_color_red">Корзина</p>
-                <div class="box box_border_red">
-                    <p>Сходить погулять</p>
-                </div>
-                <div class="box box_border_red">
-                    <p>Прочитать Войну и Мир</p>
-                </div>
-                <a class="button_red" href="">X Очистить</a>
-            </section>
-        </section>
-    </main>
+
+      </section>
+      <section class="taskboard">
+
+
+      </section>
+    </div>
+  </main>
+  <script src="src/main.js" type="module"></script>
 </body>
 </html>
